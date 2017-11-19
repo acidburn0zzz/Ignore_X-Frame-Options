@@ -1,0 +1,17 @@
+{
+  "description": "Install this extenstion to let your Firefox Ignore-Xframe-Options. Code has been taken from this Chrome Extension and ported to Firefox https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe",
+  "homepage_url": "https://github.com/psywolf85/Ignore_X-Frame-Options",
+  "manifest_version": 2,
+  "name": "Ignore Xframe-Options",
+  "version": "1.0",
+
+  "permissions": [
+    "webRequest",
+	"webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
